@@ -6,6 +6,7 @@ setlocal enabledelayedexpansion
 
 set SOURCE_DIR="%PATH_DSS_Repo%\Include"
 set DEST_DIR="%PATH_T2_I%"
+set DEST_DIR="%PATH_T4_I%"
 
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mqh
 
